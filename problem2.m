@@ -1,8 +1,8 @@
 % problem2.m
 clear, clc
-tic
-
 disp('By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.')
+
+tic
 
 fibb = [1, 2];
 c = 0;
