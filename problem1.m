@@ -1,6 +1,8 @@
 % problem1.m
 
+tic
 clear, clc
+
 
 disp('Find the sum of all the multiples of 3 or 5 below 1000.')
 
@@ -12,4 +14,5 @@ for i = 1:999
     end
 end
 
-disp(sum(multiples))
+sum(multiples)
+toc
